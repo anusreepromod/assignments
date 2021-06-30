@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+</head>
+<body style="background-image: linear-gradient(blue,white);background-repeat: no-repeat;">
+    <div>
+        <h2>CONTACT US</h2>
+    </div>
+    <div style="background-color: white;">
+        <h3 style="padding-left: 10px; font-family: Arial;">ADDRESS:</h3>
+        <h5 style="padding-bottom: 10px;padding-left: 10px;font-family: Arial;">Workshaala Spaces, 154, 5th Sector <br>HSR Layout, Bangalore <br>KA-560102</h5>
+    </div>
+    <div>
+        <div class="fd1" style="width: 300px; margin-right: 100px;">
+            <form action="" class="f1">
+                <input type="text" placeholder="Name" class="ci1"><br><br>
+                <input type="email" placeholder="Email" class="ci1"> <br><br>
+                <textarea name="Message" id="" cols="30" rows="10" class="ci1"></textarea><br><br>
+                <button class="cb1">Send</button><br><br>
+            </form>
+        </div>
+        <div class="fd1" style="width: 700px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15555.45996226116!2d77.636896!3d12.9163977!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1624683816698!5m2!1sen!2sin" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</body>
+</html>

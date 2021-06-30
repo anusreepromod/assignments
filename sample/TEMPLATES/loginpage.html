@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+</head>
+<body style="background-image: linear-gradient(blue,white);background-repeat: no-repeat;">
+    <div>
+        <h2 class="lh2">Login Form</h2>
+    </div>
+    <div class="ld1">
+        <form action="" class="lf1">
+            <input type="text" placeholder="Email address or phone number" class="li1"><br><br>
+            <input type="password"  placeholder="password" class="li1"><br><br>
+            <button type="submit" class="lb1">Login</button>
+            <h3>Forgot Password?</h3>
+            <input type="submit" value="Create New Account" class="lb2">
+
+        </form>
+    </div>
+</body>
+</html>
